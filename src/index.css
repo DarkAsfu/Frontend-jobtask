@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2.56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1f80F0;
+}
+
+.sub-title{
+  font-size: 56px;
+  line-height: 110%;
+  font-weight: 600;
+  color: #0B305B
+}
