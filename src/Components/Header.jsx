@@ -7,10 +7,11 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
+  Link
 } from '@heroui/react'
 import logo from '../assets/logo.svg'
 import { IoIosArrowForward } from 'react-icons/io'
+import CustomButton from '../Shared/CustomButton'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
@@ -68,17 +69,30 @@ const Header = () => {
       </NavbarContent>
       <NavbarContent justify='end'>
         <NavbarItem>
-          <a
-            className='group flex items-center justify-between gap-4 rounded-lg border border-current px-5 py-3 text-white hover:bg-white focus:ring-3 focus:outline-hidden transition-all'
-            href='#'
+          <CustomButton
+            text='Contact Us'
+            bgColor=''
+            textColor='text-white'
+            borderColor='border-white'
+            hoverBgColor='bg-white'
+            hoverTextColor='text-[#1f80F0]'
+            hoverBorderColor=''
           >
-            <span className='font-medium transition-colors group-hover:text-blue-500'>
-              {' '}
-              Contact Us{' '}
-            </span>
-
-            <IoIosArrowForward className='group-hover:text-blue-500  group-hover:ml-2 transition-all' />
-          </a>
+            <svg
+              className='w-4 h-4 ml-2 transition-transform duration-300 group-hover:translate-x-1'
+              fill='none'
+              stroke='currentColor'
+              viewBox='0 0 24 24'
+              xmlns='http://www.w3.org/2000/svg'
+            >
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
+                d='M14 5l7 7m0 0l-7 7m7-7H3'
+              ></path>
+            </svg>
+          </CustomButton>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>

@@ -3,6 +3,7 @@ import Company from "../Components/Company";
 import Cta from "../Components/CTA";
 import Finance from "../Components/Finance";
 import OurPhilosophy from "../Components/OurPhilosophy";
+import TechnologyBuildForYou from "../Components/TechnologyBuildForYou";
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Banner/>
             <Finance/>
             <OurPhilosophy/>
+            <TechnologyBuildForYou/>
             <Company/>
             <Cta/>
         </div>
