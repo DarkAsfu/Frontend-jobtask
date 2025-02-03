@@ -6,16 +6,19 @@ import OurPhilosophy from "../Components/OurPhilosophy";
 import TechnologyBuildForYou from "../Components/TechnologyBuildForYou";
 
 const Home = () => {
-    return (
-        <div>
-            <Banner/>
-            <Finance/>
-            <OurPhilosophy/>
-            <TechnologyBuildForYou/>
-            <Company/>
-            <Cta/>
-        </div>
-    );
+  return (
+    <div>
+      <Banner />
+      <Finance />
+      <OurPhilosophy />
+      <TechnologyBuildForYou />
+      <Company />
+      <div >
+      
+        <Cta />
+      </div>
+    </div>
+  );
 };
 
 export default Home;

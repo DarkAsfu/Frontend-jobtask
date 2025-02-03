@@ -1,35 +1,8 @@
-// import React from 'react'
-// import img from '../assets/finance.avif'
-// const Finance = () => {
-//   return (
-//     <div className='grid grid-cols-2 items-center gap-14 max-w-6xl mx-auto '>
-//       <div>
-//         <h4 className='title'>POWERING THE FUTURE OF FINANCE</h4>
-//         <h2 className='sub-title'>Uncovering new ways to delight customers</h2>
-//         <h5 className='text-[#164377] font-bold mt-10'>
-//           AnyTech is revolutionising financial technology by introducing
-//           innovative and real-time transaction account processing capabilities,
-//           specifically designed for retail financial services.
-//         </h5>
-//         <p className='text-[#164377] mt-4'>
-//           Our modern approach surpasses traditional banking and card processing
-//           systems, empowering you with the most advanced technology for lasting
-//           success.
-//         </p>
-//       </div>
-//       <div>
-//         <img src={img} alt='' />
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Finance
-
 import React from 'react';
 
 const Finance = () => {
   return (
+   <>
     <section className="max-w-6xl mx-auto pt-32 pb-20">
       <section className="grid md:grid-cols-2 grid-cols-1 items-center md:gap-[15px] relative">
         <div className="md:space-y-sm space-y-xs">
@@ -263,6 +236,33 @@ const Finance = () => {
         </div>
       </section>
     </section>
+    <svg
+    className="max-h-[240px] md:my-sm my-lg w-full min-h-[60px]"
+    preserveAspectRatio="xMidYMid slice"
+    viewBox="0 0 1920 280"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      opacity="0.7"
+      d="M-240 0L1680 0L-240 280L-240 0Z"
+      fill="url(#paint0_linear_6055_471)"
+    />
+    <defs>
+      <linearGradient
+        id="paint0_linear_6055_471"
+        x1="458.5"
+        y1="1561.14"
+        x2="392.705"
+        y2="52.1879"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#1F80F0" />
+        <stop offset="1" stopColor="#1F80F0" stopOpacity="0" />
+      </linearGradient>
+    </defs>
+  </svg>
+   </>
   );
 };
 
