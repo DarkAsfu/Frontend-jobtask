@@ -18,7 +18,7 @@ const CustomButton = ({
   return (
     <a
       href="#_"
-      className={`inline-flex items-center w-full px-5 py-3 mb-3 mr-1 text-[18px] font-semibold no-underline align-middlerounded-md cursor-pointer select-none sm:mb-0 sm:w-auto transition-all duration-300 group ${isHovered ? hoverBgColor : bgColor} ${isHovered ? hoverTextColor : textColor} ${isHovered ? hoverBorderColor : borderColor} ${className}`}
+      className={`inline-flex items-center ${borderColor ? "border" : "border-0"} w-full px-5 py-3 mb-3 mr-1 text-[18px] font-semibold no-underline align-middlerounded-md cursor-pointer select-none sm:mb-0 sm:w-auto transition-all duration-300 group ${isHovered ? hoverBgColor : bgColor} ${isHovered ? hoverTextColor : textColor} ${isHovered ? hoverBorderColor : borderColor} ${className}`}
       onClick={onClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
