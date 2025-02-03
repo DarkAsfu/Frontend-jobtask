@@ -70,11 +70,11 @@ const TechnologyBuildForYou = () => {
         freeMode={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs]}
-        className='mySwiper mt-20 mb-10'
+        className='mySwiper mt-20 mb-10 '
       >
         {sliderData.map((s, i) => (
           <SwiperSlide key={i}>
-            <h3 className={`text-[18px] font-semibold py-3 ${activeIndex === i ? 'bg-[#B9D9FF] text-[#1f80F0] py-3 rounded-full' : 'text-[#1f80F0]'}`}>
+            <h3 className={`text-[18px] font-semibold py-3 hidden md:block ${activeIndex === i ? 'bg-[#B9D9FF] text-[#1f80F0] py-3 rounded-full' : 'text-[#1f80F0]'}`}>
               {s.title}
             </h3>
           </SwiperSlide>
@@ -93,7 +93,7 @@ const TechnologyBuildForYou = () => {
       >
         {sliderData.map(s => (
           <SwiperSlide key={s.title}>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-8 border shadow-lg rounded-xl px-20 py-14 text-left'>
+            <div className='mx-6 grid grid-cols-1 md:grid-cols-2 gap-8 border shadow-lg rounded-xl px-6 md:px-20 py-14 text-left'>
               <div>
                 <h6 className='title'>{s.title}</h6>
                 <h2 className='mid-title mt-8'>{s.subTitle}</h2>

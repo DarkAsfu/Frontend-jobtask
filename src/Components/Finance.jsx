@@ -3,11 +3,11 @@ import React from "react";
 const Finance = () => {
   return (
     <>
-      <section className="max-w-6xl mx-auto pt-32 pb-20">
+      <section className="max-w-6xl mx-auto pt-32 pb-20 px-6">
         <section className="grid md:grid-cols-2 grid-cols-1 items-center md:gap-[15px] relative">
           <div className="md:space-y-sm space-y-xs">
             <h6 className="title">POWERING THE FUTURE OF FINANCE</h6>
-            <h2 className="sub-title">
+            <h2 className="sub-title text-[6px]">
               Uncovering new ways to delight customers
             </h2>
             <div className="!my-[60px] md:hidden block relative h-fit lg:text-clip">

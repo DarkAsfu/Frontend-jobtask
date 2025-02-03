@@ -84,7 +84,7 @@ const Company = () => {
   ];
 
   return (
-    <div className=" pb-20">
+    <div className="px-6 pb-20">
       {/* Gradient SVG Shape */}
       <svg
         className="max-h-[240px] md:my-sm my-lg w-full min-h-[60px]"
@@ -131,7 +131,7 @@ const Company = () => {
           ))}
         </div>
 
-        <div className="mt-xl grid grid-cols-3 gap-x-16 gap-y-[34px] max-md:hidden lg:grid-cols-5 items-center mt-20">
+        <div className="mt-xl grid grid-cols-3 gap-x-16 gap-y-[34px]  lg:grid-cols-5 items-center mt-20">
           {clogo.map((item) => (
             <img key={item.id} src={item.url} alt="" className="mt-8" />
           ))}

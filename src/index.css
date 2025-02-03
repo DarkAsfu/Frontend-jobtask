@@ -11,15 +11,31 @@
   color: #1f80F0;
 }
 
-.sub-title{
+.sub-title {
   font-size: 56px;
   line-height: 110%;
   font-weight: 600;
-  color: #0B305B
+  color: #0B305B;
 }
-.mid-title{
+
+.mid-title {
   font-size: 48px;
   line-height: 110%;
   font-weight: 600;
-  color: #0B305B
+  color: #0B305B;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 767px) {
+  .title {
+    font-size: 14px; /* Adjust the font size for mobile */
+  }
+  
+  .sub-title {
+    font-size: 32px; /* Adjust the font size for mobile */
+  }
+
+  .mid-title {
+    font-size: 28px; /* Adjust the font size for mobile */
+  }
 }

@@ -22,7 +22,7 @@ const OurPhilosophy = () => {
         }
     ]
     return (
-        <div className='max-w-6xl mx-auto pb-20'>
+        <div className='max-w-6xl mx-auto pb-20 px-6'>
             <h4 className='title text-center'>OUR PHILOSOPHY</h4>
             <h2 className='sub-title text-center'>Human-centred innovation</h2>
             <img className='mt-8 mb-8' src="https://cdn.sanity.io/images/6jywt20u/production/2d90adc3456764f98e38ce40b5ea7d7f52fd4ce1-2206x727.png?w=1920&auto=format" alt="" />

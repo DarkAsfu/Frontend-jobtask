@@ -4,7 +4,7 @@ import CustomButton from "../Shared/CustomButton";
 
 const Cta = () => {
   return (
-    <div className="w-full text-white relative overflow-hidden -mt-48">
+    <div className="w-full text-white relative overflow-hidden -mt-48 px-6">
       {/* SVG Shape */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -33,8 +33,8 @@ const Cta = () => {
       </svg>
 
       {/* Content Over SVG */}
-      <div className="relative max-w-6xl mx-auto pt-96 pb-48 z-10">
-        <h2 className="text-[56px] font-bold mb-4">Legacy no longer</h2>
+      <div className="relative max-w-6xl mx-auto pt-[600px] md:pt-96 pb-48 z-10">
+        <h2 className="text-[32px] md:text-[56px] font-bold mb-4">Legacy no longer</h2>
         <p className="text-[20px] mb-6">
           Talk to us to find out how we can transform your organization for the
           future

@@ -7,16 +7,13 @@ import TechnologyBuildForYou from "../Components/TechnologyBuildForYou";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Banner />
       <Finance />
       <OurPhilosophy />
       <TechnologyBuildForYou />
       <Company />
-      <div >
-      
         <Cta />
-      </div>
     </div>
   );
 };

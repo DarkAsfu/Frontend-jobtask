@@ -4,7 +4,7 @@ import preset from "../assets/WaveLinesDesktop3.svg";
 
 const Banner = () => {
   return (
-    <div className="relative py-20">
+    <div className="relative py-20 px-6">
       <div
         className="absolute inset-0 bg-blue-500"
         style={{
@@ -17,7 +17,7 @@ const Banner = () => {
       />
       <div className="relative max-w-6xl mx-auto py-20 space-y-4 grid md:grid-cols-2">
         <div className="">
-          <h1 className="text-[80px] leading-none font-semibold w-[70%] text-white">
+          <h1 className="text-[56px] lg:text-[80px] leading-none font-semibold w-[70%] text-white">
             Embrace the future of finance
           </h1>
           <p className="mt-8 text-[16px] font-bold text-white max-w-[37rem] tracking-wide">
